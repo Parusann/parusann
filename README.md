@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- ANIMATED TYPING SVG -->
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=4000&pause=1000&color=6C63FF&center=true&vCenter=true&multiline=true&repeat=true&width=650&height=100&lines=Hey+there%2C+I'm+Parusan+%F0%9F%91%8B;Computer+Engineering+%40+TMU;Full-Stack+Developer+%7C+ML+Enthusiast)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=1000&color=6C63FF&center=true&vCenter=true&repeat=true&width=600&height=60&lines=Hey+there%2C+I'm+Parusan+%F0%9F%91%8B;Computer+Engineering+%40+TMU;Full-Stack+Developer+%7C+ML+Enthusiast;Building+AI-Powered+Apps+%F0%9F%9A%80)](https://git.io/typing-svg)
 
 <p>
   <a href="https://www.linkedin.com/in/parusan/">
@@ -68,13 +68,15 @@
 <div align="center">
 
 #### Languages
-<img src="https://skillicons.dev/icons?i=python,javascript,java,cpp,c,go,swift,html,css&perline=9" />
+<img src="https://go-skill-icons.vercel.app/api/icons?i=python,javascript,java,cpp,c&titles=true&perline=5" />
+<br>
+<img src="https://go-skill-icons.vercel.app/api/icons?i=go,swift,html,css&titles=true&perline=5" />
 
 #### Frameworks & Libraries
-<img src="https://skillicons.dev/icons?i=react,flask,nodejs,swiftui&perline=9" />
+<img src="https://go-skill-icons.vercel.app/api/icons?i=react,flask,nodejs,swiftui&titles=true&perline=4" />
 
 #### DevOps & Infrastructure
-<img src="https://skillicons.dev/icons?i=docker,redis,postgres,git,github,matlab&perline=9" />
+<img src="https://go-skill-icons.vercel.app/api/icons?i=docker,redis,postgres,git,github,matlab&titles=true&perline=6" />
 
 </div>
 
