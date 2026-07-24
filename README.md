@@ -27,7 +27,7 @@
 🎓  Computer Engineering @ Toronto Metropolitan University
 💼  ML Engineer @ Outlier AI
 ⚙️  From RTL to REST — I've shipped a formally-verified RISC-V CPU, a live
-    full-stack platform with 590+ tests, and an offline-AI desktop app
+    full-stack platform with 619 tests, and an offline-AI desktop app
 🔍  Open to internship & co-op opportunities
 ```
 
@@ -69,7 +69,7 @@
         </a>
       </p>
       <p align="center">
-        Full-stack anime catalog & recommendation platform powered by Claude — live as an <b>installable PWA</b>. A <b>13,000-title</b> catalog behind <b>30+ REST endpoints</b> with JWT auth, collaborative genre voting, live search autocomplete, and AniList GraphQL sync — backed by <b>590+ automated tests</b>.
+        Full-stack anime catalog & recommendation platform powered by Claude — live as an <b>installable PWA</b>. A <b>14,000+ title</b> catalog behind <b>72 REST endpoints</b> with JWT auth, collaborative genre voting, live search autocomplete, and AniList GraphQL sync — backed by <b>619 automated tests</b>.
       </p>
       <p align="center">
         <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
@@ -89,7 +89,7 @@
         </a>
       </p>
       <p align="center">
-        <b>RV32I CPU built from scratch in SystemVerilog</b> — a single-cycle core and a 5-stage pipelined core with hazard forwarding and branch prediction. <b>39/39 riscv-arch-test compliance</b> vs the official SAIL model, <b>43/43 riscv-formal bounded checks</b> on both cores, <b>38.8 MHz post-route</b> on an ECP5-85F, and measured CPI of 1.00–1.27 with BTB hit rates up to 99.6%.
+        <b>RV32I CPU built from scratch in SystemVerilog</b> — a single-cycle core and a 5-stage pipelined core with hazard forwarding and branch prediction. <b>38/38 riscv-arch-test compliance (+ Zifencei 1/1)</b> vs the official SAIL model, <b>43/43 riscv-formal bounded checks</b> on both cores, <b>38.8 MHz post-route</b> on an ECP5-85F, and measured CPI of 1.00–1.27 with BTB hit rates up to 99.6%.
       </p>
       <p align="center">
         <img src="https://img.shields.io/badge/SystemVerilog-1a1a2e?style=flat-square"/>
@@ -216,7 +216,7 @@ const parusan = {
 ## ⚡ Fun facts
 
 - 🧠 **Built a CPU from scratch** — Pulsar-V's pipelined core passes 43/43 formal checks and full RV32I compliance against the official SAIL golden model
-- 🎬 **Anime-powered side projects** — Bingery recommends anime with Claude, and 590+ automated tests say it actually works
+- 🎬 **Anime-powered side projects** — Bingery recommends anime with Claude, and 619 automated tests say it actually works
 - 🧬 **Decoded alien languages (sort of)** — Xenolinguist runs its entire voice pipeline offline on your machine, inspired by *Project Hail Mary*
 - 🛰️ **Did due diligence on rocket launches** — LaunchLedger ranks launch-vehicle reliability with empirical-Bayes statistics on decades of launch data
 - 🤖 **20+ AI/ML projects at Outlier AI** — earned 70+ acknowledgments for improving frontier-model capabilities
