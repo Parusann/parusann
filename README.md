@@ -26,10 +26,13 @@
 ```text
 🎓  Computer Engineering @ Toronto Metropolitan University
 💼  ML Engineer @ Outlier AI
+🎮  Previously Game Developer @ Riot Games (May–Aug 2024, remote)
 ⚙️  From RTL to REST — I've shipped a formally-verified RISC-V CPU, a live
     full-stack platform with 619 tests, and an offline-AI desktop app
 🔍  Open to internship & co-op opportunities
 ```
+
+[Download my résumé](https://parusann.github.io/assets/Parusan_Natheeswaran_Resume.pdf)
 
 ---
 
