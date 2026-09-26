@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3500&pause=1000&color=6C63FF&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=120&lines=Computer+Engineering+%40+Toronto+Metropolitan;From+RTL+to+REST+%E2%80%94+CPUs%2C+Apps+%26+On-Device+AI;Open+to+2026+internship+%26+co-op+roles)](https://parusann.github.io)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3500&pause=1000&color=6C63FF&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=120&lines=Computer+Engineering+%40+Toronto+Metropolitan;From+RTL+to+REST+%E2%80%94+CPUs%2C+Apps+%26+On-Device+AI;Open+to+a+12-month+co-op+from+Jan+2027)](https://parusann.github.io)
 
 <p>
   <a href="https://parusann.github.io">
@@ -28,8 +28,8 @@
 💼  ML Engineer @ Outlier AI
 🎮  Previously Game Developer @ Riot Games (May–Aug 2024, remote)
 ⚙️  From RTL to REST — I've shipped a formally-verified RISC-V CPU, a live
-    full-stack platform with 619 tests, and an offline-AI desktop app
-🔍  Open to internship & co-op opportunities
+    AI-agent platform with 690+ tests, and an offline-AI desktop app
+🔍  Seeking a 12-month co-op starting January 2027
 ```
 
 [Download my résumé](https://parusann.github.io/assets/Parusan_Natheeswaran_Resume.pdf)
@@ -51,7 +51,7 @@
         </a>
       </p>
       <p align="center">
-        AI-powered language decoding workbench inspired by <em>Project Hail Mary</em> — shipped as a <b>v1.0.0 Windows desktop app</b>. Six-phase workflow for systematically decoding unknown languages, with a fully <b>offline voice pipeline</b>: whisper.cpp speech-to-text, wav2vec2 IPA transcription, and espeak-ng synthesis. No cloud, no API keys.
+        AI-powered language decoding workbench inspired by <em>Project Hail Mary</em> — shipped as a <b>v1.0.0 Windows desktop app</b>. Six-phase workflow for systematically decoding unknown languages, with a fully <b>offline voice pipeline</b>: whisper.cpp speech-to-text, wav2vec2 IPA transcription, and espeak-ng synthesis. Local LLMs via Ollama route each task to a heavy or light model, flag guesses apart from confirmed findings, and auto-detect a language's number base. No cloud, no API keys.
       </p>
       <p align="center">
         <img src="https://img.shields.io/badge/Electron-47848F?style=flat-square&logo=electron&logoColor=white"/>
@@ -59,6 +59,7 @@
         <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
         <img src="https://img.shields.io/badge/whisper.cpp-1a1a2e?style=flat-square"/>
         <img src="https://img.shields.io/badge/Transformers.js-FFD21E?style=flat-square&logo=huggingface&logoColor=black"/>
+        <img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white"/>
       </p>
     </td>
     <td width="50%" valign="top">
@@ -72,7 +73,7 @@
         </a>
       </p>
       <p align="center">
-        Full-stack anime catalog & recommendation platform powered by Claude — live as an <b>installable PWA</b>. A <b>14,000+ title</b> catalog behind <b>72 REST endpoints</b> with JWT auth, collaborative genre voting, live search autocomplete, and AniList GraphQL sync — backed by <b>619 automated tests</b>.
+        Full-stack anime discovery platform with a <b>Claude tool-calling AI agent</b> — live as an <b>installable PWA</b>. A <b>14,000+ title</b> catalog behind <b>75 REST routes</b> with JWT auth, an IDF-weighted similarity engine, collaborative genre voting, and AniList GraphQL sync — backed by <b>690+ automated tests</b>.
       </p>
       <p align="center">
         <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
@@ -133,10 +134,10 @@
 | Project | What it is |
 |---|---|
 | **[EdgeSpark](https://github.com/Parusann/edgespark)** | Quantized speculative decoding on a single consumer AMD GPU (RX 7900 XTX / ROCm), with a confidence-head calibration study. |
-| **Parley** 🔒 | Push-to-talk voice dictation for Windows — hold a key, speak, and text lands at your cursor. 100% offline, GPU-accelerated Whisper. *(private while it's polished for release)* |
-| **[ZenithSpectra](https://github.com/Parusann/ZenithSpectra)** | AI science-intelligence platform tracking space exploration & frontier physics — credibility-ranked sources, trending topics, and source-backed Q&A. |
-| **[Distributed URL Shortener](https://github.com/Parusann/distributed-url-shortener)** | Go + Redis + PostgreSQL service with a caching layer for low-latency redirects and click analytics, fully containerized with Docker. |
-| **[BookStore Management](https://github.com/Parusann/BookStoreApp)** | Java Swing inventory app with secure auth and State-pattern reward points over a 5,000+ book catalog. |
+| **[Parley](https://github.com/Parusann/parley)** | Push-to-talk voice dictation for Windows, built on whisper-local — hold a key, speak, and text lands at your cursor. 100% offline, ~135 ms round-trip on a Vulkan GPU, 186 tests. |
+| **[ZenithSpectra](https://github.com/Parusann/ZenithSpectra)** | AI science-intelligence platform tracking space exploration & frontier physics — credibility-ranked sources, trending topics, and source-backed Q&A with a Gemma 4 model I fine-tuned (QLoRA) on an RX 7900 XTX. |
+| **[Distributed URL Shortener](https://github.com/Parusann/distributed-url-shortener)** | Go + Redis + PostgreSQL service behind nginx, load-tested at ~3,500 req/s with 0% errors (k6), with write-behind click analytics and Grafana dashboards. |
+| **[BookStore Management](https://github.com/Parusann/BookStoreApp)** | Java Swing bookstore app with owner and customer roles, Singleton data stores, and State-pattern loyalty tiers. |
 
 ---
 
@@ -196,10 +197,10 @@
 
 ```javascript
 const parusan = {
-    recentlyShipped: ["Pulsar-V (RV32I CPU)", "LaunchLedger", "Xenolinguist v1.0.0"],
+    recentlyShipped: ["Xenolinguist v1.0.0", "Pulsar-V (RV32I CPU)", "Parley", "LaunchLedger"],
     exploring:       ["Branch prediction & BTB design", "Formal verification", "On-device AI"],
-    upNext:          ["Load-forward retiming & timer interrupts for Pulsar-V", "Parley public release"],
-    goal:            "Keep shipping & land a great internship"
+    upNext:          ["Load-forward retiming & timer interrupts for Pulsar-V"],
+    goal:            "Keep shipping & land a great 2027 co-op"
 };
 ```
 
@@ -219,7 +220,7 @@ const parusan = {
 ## ⚡ Fun facts
 
 - 🧠 **Built a CPU from scratch** — Pulsar-V's pipelined core passes 43/43 formal checks and full RV32I compliance against the official SAIL golden model
-- 🎬 **Anime-powered side projects** — Bingery recommends anime with Claude, and 619 automated tests say it actually works
+- 🎬 **Anime-powered side projects** — Bingery recommends anime with a Claude agent, and 690+ automated tests say it actually works
 - 🧬 **Decoded alien languages (sort of)** — Xenolinguist runs its entire voice pipeline offline on your machine, inspired by *Project Hail Mary*
 - 🛰️ **Did due diligence on rocket launches** — LaunchLedger ranks launch-vehicle reliability with empirical-Bayes statistics on decades of launch data
 - 🤖 **20+ AI/ML projects at Outlier AI** — earned 70+ acknowledgments for improving frontier-model capabilities
